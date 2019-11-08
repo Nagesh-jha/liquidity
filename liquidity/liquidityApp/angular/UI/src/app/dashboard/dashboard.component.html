@@ -1,0 +1,40 @@
+<div class="background">
+    <div class="container ">
+        <div class="row" style="padding-top: 15px; ">
+            <div class="col-6">
+                User List
+            </div>
+            <div class="add col-6 d-flex justify-content-center h-100" style="font-size: 20px !important;">
+                <i class="material-icons" (click)="addUser()">add</i>Add New
+            </div>
+        </div>
+        <div class="row list">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Sno</th>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Phone</th>
+                        <th>Department</th>
+                        <th>Edit</th>
+                        <th>Delete</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let data of user_list; let i=index" [ngClass]="(i%2==0)?'even-row':'odd-row'">
+                        <td>{{data.id}}</td>
+                        <td>{{data.name}}</td>
+                        <td class="mail">{{data.email}}</td>
+                        <td>{{data.phone}}</td>
+                        <td>{{data.department}}</td>
+                        <td><i class="material-icons" (click)="edit(i)">edit</i></td>
+                        <td><i class="material-icons" style="color: red;font-size: 25px;font-weight: bolder;"
+                                (click)="delete(i)">close</i>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

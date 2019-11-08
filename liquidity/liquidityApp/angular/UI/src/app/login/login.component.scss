@@ -1,0 +1,31 @@
+mat-card{
+    border-radius: 44px;
+    background: #b5afaf;
+    height: 226px;
+    margin-top: 35px;
+    margin-bottom: auto;
+    width: 400px;
+}
+mat-card-content{
+    margin: 35px !important;
+  }
+.row{
+      margin-top:15px !important;
+      font-weight: 500;
+    font-family: inherit;
+    font-size: 16px;
+  }
+ input{
+    height: 32px;
+    border: 2px solid #6a7aa9;
+    border-radius: 2px;
+ } 
+ .btn{
+    border: 2px solid #6a7aa9;
+    height: 27px !important;
+    width: 90px;
+    padding-top: 0px !important;
+    font-size: 16px;
+    color: white;
+    border-radius: 6px;
+ }

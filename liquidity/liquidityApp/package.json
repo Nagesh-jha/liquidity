@@ -1,0 +1,31 @@
+{
+  "name": "liquidityapp",
+  "version": "1.0.0",
+  "description": "liquidityApp",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nagesh-jha/liquidity.git"
+  },
+  "keywords": [
+    "NA"
+  ],
+  "author": "nagesh-jha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nagesh-jha/liquidity/issues"
+  },
+  "homepage": "https://github.com/Nagesh-jha/liquidity#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.8",
+    "mongoose-type-email": "^1.0.11",
+    "mongoose-validator": "^2.1.0",
+    "validator": "^12.0.0"
+  }
+}

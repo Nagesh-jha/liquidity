@@ -1,0 +1,30 @@
+<div class="container form-content-labels ">
+    <div class="row">Add new user</div>
+    <form [formGroup]=addUserForm>
+        <div class="row">
+            <div class="col-4">First name</div>
+            <div clas="col-6"><input type="text" formControlName="f_name" [(ngModel)]="user_list.f_name"
+                    class="form-control"></div>
+        </div>
+        <div class="row">
+            <div class="col-4">Last name</div>
+            <div clas="col-6"><input type="text" formControlName="l_name" [(ngModel)]="user_list.l_name"
+                    class="form-control"></div>
+        </div>
+        <div class="row">
+            <div class="col-4">Email</div>
+            <div clas="col-6"><input type="text" formControlName="email" [(ngModel)]="user_list.email"
+                    class="form-control"></div>
+        </div>
+        <div class="row">
+            <div class="col-4">Phone no</div>
+            <div clas="col-6"><input type="text" formControlName="phone_no" [(ngModel)]="user_list.phone_no"
+                    class="form-control"></div>
+        </div>
+        <div class="row">
+            <div class="col-4">Department</div>
+            <div clas="col-6"><input type="text" formControlName="department" [(ngModel)]="user_list.department"
+                    class="form-control"></div>
+        </div>
+    </form>
+</div>
